@@ -60,14 +60,7 @@ function Product({ onAddToCart }) {
             <div className="product-card-body">
               <p className="product-name">{product.name}</p>
               <div className="product-price">
-                {product.oldPrice ? (
-                  <>
-                    <span className="price-old">{product.oldPrice}</span>
-                    <span className="price-new">{product.newPrice}</span>
-                  </>
-                ) : (
-                  <span className="price-only">{product.Price}</span>
-                )}
+                <span className="price-only">{product.Price}</span>
               </div>
               <button className="product-btn" onClick={onAddToCart}>
                 Add to Cart
