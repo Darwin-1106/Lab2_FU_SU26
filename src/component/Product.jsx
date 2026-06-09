@@ -2,6 +2,8 @@ import s1 from "../assets/s1.jpg";
 import s2 from "../assets/s2.jpg";
 import s3 from "../assets/s3.jpg";
 import s4 from "../assets/s4.jpg";
+import s5 from "../assets/s5.jpg";
+import s6 from "../assets/s6.jpg";
 import "./Product.css";
 
 const products = [
@@ -28,6 +30,18 @@ const products = [
     name: "Street Style Hoodie",
     img: s4,
     Price: "$39.00",
+  },
+  {
+    id: 5,
+    name: "Slim Fit Trousers",
+    img: s5,
+    Price: "$27.00",
+  },
+  {
+    id: 6,
+    name: "Leather Handbag",
+    img: s6,
+    Price: "$45.00",
   },
 ];
 
