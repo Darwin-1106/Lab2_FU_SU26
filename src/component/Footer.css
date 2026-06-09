@@ -11,35 +11,23 @@
   text-align: center;
 }
 
-.footer-title {
-  color: #f0c040;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
 .footer-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 24px;
 }
-
 .footer-item {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
 .footer-label {
   color: #888888;
   font-size: 0.9rem;
   min-width: 90px;
   text-align: right;
 }
-
 .footer-value {
   color: #ffffff;
   font-size: 0.9rem;
