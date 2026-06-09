@@ -40,28 +40,6 @@
   display: block;
 }
 
-.product-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 3px 8px;
-  border-radius: 4px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.product-badge.sale {
-  background-color: #f0c040;
-  color: #1a1a1a;
-}
-
-.product-badge.new {
-  background-color: #4caf7d;
-  color: #ffffff;
-}
-
 .product-card-body {
   padding: 14px 14px 16px;
 }
@@ -80,21 +58,9 @@
   margin-bottom: 14px;
 }
 
-.price-old {
-  color: #888888;
-  font-size: 0.82rem;
-  text-decoration: line-through;
-}
-
-.price-new {
-  color: #f0c040;
-  font-size: 0.95rem;
-  font-weight: 700;
-}
-
 .price-only {
   color: #cccccc;
-  font-size: 0.9rem;
+  font-size: 15px;
   font-weight: 600;
 }
 

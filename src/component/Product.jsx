@@ -21,7 +21,6 @@ const products = [
     id: 3,
     name: "Summer Floral Dress",
     img: s3,
-    badge: "new",
     Price: "$30.50",
   },
   {
@@ -39,11 +38,6 @@ function Product({ onAddToCart }) {
       <div className="product-grid">
         {products.map((product) => (
           <div className="product-card" key={product.id}>
-            {product.badge && (
-              <span className={`product-badge ${product.badge}`}>
-                {product.badge}
-              </span>
-            )}
             <img
               className="product-card-img"
               src={product.img}
