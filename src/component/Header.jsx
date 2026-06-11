@@ -7,7 +7,7 @@ import { FaCartShopping } from "react-icons/fa6";
 function Header({ cartCount }) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+      <Container fuild>
         <Navbar.Brand href="#">
           <img
             src={logo}

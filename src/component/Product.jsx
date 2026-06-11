@@ -62,7 +62,13 @@ function Product({ onAddToCart }) {
               <div className="product-price">
                 <span className="price-only">{product.Price}</span>
               </div>
-              <button className="product-btn" onClick={onAddToCart}>
+              <button
+                className="product-btn"
+                onClick={() => {
+                  alert(`Select: ${product.id}`),
+                  onAddToCart(product)
+                }}
+              >
                 Add to Cart
               </button>
             </div>
